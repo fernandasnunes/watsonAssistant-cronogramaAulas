@@ -1,0 +1,7 @@
+{
+  "name": "WatsonAssistant",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,212 @@
+ion-card-content {
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+
+}
+
+.microfone {
+    font-size: 300px;
+    color: #5699d2;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.centralizarIcone{
+    display: flex;
+}
+@keyframes lds-ripple {
+    0% {
+      top: 94px;
+      left: 94px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 17px;
+      left: 17px;
+      width: 154px;
+      height: 154px;
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes lds-ripple {
+    0% {
+      top: 94px;
+      left: 94px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    100% {
+      top: 17px;
+      left: 17px;
+      width: 154px;
+      height: 154px;
+      opacity: 0;
+    }
+  }
+  .lds-ripple {
+    position: relative;
+  }
+  .lds-css{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .lds-ripple div {
+    box-sizing: content-box;
+    position: absolute;
+    border-width: 6px;
+    border-style: solid;
+    opacity: 1;
+    border-radius: 50%;
+    -webkit-animation: lds-ripple 2.3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    animation: lds-ripple 2.3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  .lds-ripple div:nth-child(1) {
+    border-color: #1d3f72;
+  }
+  .lds-ripple div:nth-child(2) {
+    border-color: #5699d2;
+    -webkit-animation-delay: -1.15s;
+    animation-delay: -1.15s;
+  }
+  .lds-ripple {
+    width: 200px !important;
+    height: 200px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  }
+
+//   FALANDO
+  @keyframes lds-facebook_1 {
+    0% {
+      top: 36px;
+      height: 128px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  @-webkit-keyframes lds-facebook_1 {
+    0% {
+      top: 36px;
+      height: 128px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  @keyframes lds-facebook_2 {
+    0% {
+      top: 41.99999999999999px;
+      height: 116.00000000000001px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  @-webkit-keyframes lds-facebook_2 {
+    0% {
+      top: 41.99999999999999px;
+      height: 116.00000000000001px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  @keyframes lds-facebook_3 {
+    0% {
+      top: 48px;
+      height: 104px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  @-webkit-keyframes lds-facebook_3 {
+    0% {
+      top: 48px;
+      height: 104px;
+    }
+    50% {
+      top: 60px;
+      height: 80px;
+    }
+    100% {
+      top: 60px;
+      height: 80px;
+    }
+  }
+  .lds-facebook {
+    position: relative;
+  }
+  .lds-facebook div {
+    position: absolute;
+    width: 30px;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 35px;
+    background: #93dbe9;
+    -webkit-animation: lds-facebook_1 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_1 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.24s;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 85px;
+    background: #689cc5;
+    -webkit-animation: lds-facebook_2 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_2 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    -webkit-animation-delay: -0.12s;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 135px;
+    background: #5e6fa3;
+    -webkit-animation: lds-facebook_3 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+    animation: lds-facebook_3 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook {
+    width: 200px !important;
+    height: 200px !important;
+    -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+    transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+  }

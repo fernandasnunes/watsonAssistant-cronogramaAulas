@@ -1,0 +1,47 @@
+<ion-header>
+  <link
+    href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+    rel="stylesheet"
+  />
+
+  <ion-toolbar>
+    <ion-title> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="wrapper">
+    <!-- MICROFONE -->
+    <ion-icon
+      *ngIf="estado == 0"
+      (click)="temPermissao()"
+      class="microfone"
+      md="md-microphone"
+    ></ion-icon>
+
+    <!-- OUVINDO -->
+    <div class="centralizarIcone" *ngIf="estado == 1">
+      <div class="lds-css ng-scope">
+        <div style="width:100%;height:100%" class="lds-ripple">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- respodendo -->
+
+    <div class="centralizarIcone" (click)="estado = 0" *ngIf="estado == 2">
+      <div class="lds-css ng-scope">
+        <div style="width:100%;height:100%" class="lds-facebook">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <ion-card-content>
+          {{ fala }}
+        </ion-card-content>
+      </div>
+    </div>
+  </div>
+</ion-content>
